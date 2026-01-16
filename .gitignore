@@ -82,6 +82,6 @@ Desktop.ini
 # Temp files
 *.tmp
 *.temp
-telegram_scraper.session/
-bot_session_34878880.session/
+telegram_scraper.session
+bot_session_34878880.session
 data/
