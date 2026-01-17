@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+ENV/
+venv*/
+env.bak/
+venv.bak/
+.env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project specific
+data/            # Raw data (should be regenerated)
+logs/            # Log files
+models/          # ML models (YOLO weights)
+notebooks/.ipynb_checkpoints/
+
+# dbt
+medical_warehouse/target/
+medical_warehouse/dbt_packages/
+medical_warehouse/logs/
+*.db
+*.sqlite3
+
+# YOLO
+*.pt             # Model weights
+runs/            # YOLO training runs
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Secrets
+secrets.yaml
+credentials.json
+config.yaml
+config.json
+*.pem
+*.key
+
+# Docker
+docker-compose.override.yml
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temp files
+*.tmp
+*.temp
+telegram_scraper.session
+bot_session_34878880.session
+data/
+logs/
