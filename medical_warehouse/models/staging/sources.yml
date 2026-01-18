@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: processed
+    description: "Processed data sources"
+    schema: processed
+    tables:
+      - name: yolo_results
+        description: "YOLO object detection results from medical/cosmetic Telegram images"
