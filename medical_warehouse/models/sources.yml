@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: processed
+    schema: processed
+    tables:
+      - name: yolo_results
+        description: "YOLO object detection results with visualizations"
