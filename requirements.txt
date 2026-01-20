@@ -2,6 +2,10 @@
 # MEDICAL TELEGRAM WAREHOUSE - REQUIREMENTS
 # ==============================================
 
+# ==============================================
+# MEDICAL TELEGRAM WAREHOUSE - REQUIREMENTS
+# ==============================================
+
 # Core Python Dependencies
 psycopg2-binary==2.9.9
 python-dotenv==1.0.0
@@ -23,3 +27,14 @@ pytest==7.4.3
 black==23.11.0
 flake8==6.1.0
 pre-commit==3.5.0
+
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+python-dotenv==1.0.0
+
+dagster==1.6.*
+dagster-webserver==1.6.*
+dagster-postgres==0.21.*
