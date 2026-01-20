@@ -1,0 +1,43 @@
+# Create .dockerignore to prevent copying large files
+@'
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Data files
+data/
+*.db
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# dbt build artifacts
+medical_warehouse/target/
+medical_warehouse/dbt_packages/
+
+# Git
+.git/
+
+# Temporary files
+tmp/
+temp/
+'@ | Out-File -FilePath .dockerignore -Encoding UTF8
