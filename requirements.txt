@@ -1,25 +1,26 @@
-# ==============================================
-# MEDICAL TELEGRAM WAREHOUSE - REQUIREMENTS
-# ==============================================
-
-# Core Python Dependencies
+# Data processing & database
+pandas==2.0.3
+numpy==1.24.3
+sqlalchemy==2.0.19
 psycopg2-binary==2.9.9
 python-dotenv==1.0.0
-telethon==1.34.0
-pandas==2.1.4
-requests==2.31.0
-python-dateutil==2.8.2
 
-# dbt Core
-dbt-core==1.5.0
+# Telegram scraping
+telethon==1.28.5
+
+# dbt (data transformation)
 dbt-postgres==1.5.0
 
-# dbt Packages (installed via packages.yml, listed here for documentation)
-# dbt-labs/dbt_utils==1.1.1
-# dbt-labs/codegen==0.12.0
+# Computer vision (YOLO)
+ultralytics==8.0.196
+opencv-python==4.8.1.78
+torch==2.1.0
+torchvision==0.16.0
+pillow==10.1.0
 
-# Development tools
-pytest==7.4.3
-black==23.11.0
-flake8==6.1.0
-pre-commit==3.5.0
+# API - Pydantic 2.x compatible
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# Orchestration - WORKING VERSIONS (Choose ONE option below)
